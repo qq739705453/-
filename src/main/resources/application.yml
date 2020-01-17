@@ -2,7 +2,9 @@ spring:
   datasource:
     username: root
     password: '123456'
-    url: jdbc:mysql://localhost:3306/mynovel?&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/association?&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
 server:
   port: 8080
+
+

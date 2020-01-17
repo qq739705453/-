@@ -29,8 +29,8 @@ public class Swagger2 {
                         .apiInfo(apiInfo())
                         .select()
                         //扫描basePackage包下面的“/rest/”路径下的内容作为接口文档构建的目标
-                        .apis(RequestHandlerSelectors.basePackage("com.hzq.springboot"))
-                        .paths(PathSelectors.regex("/jdbc/.*"))
+                        .apis(RequestHandlerSelectors.basePackage("com.yj.wl.controller"))
+                        .paths(PathSelectors.regex("/Journalisms/.*"))
                         .build();
 	}
 	
